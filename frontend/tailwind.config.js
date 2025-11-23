@@ -1,13 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
     extend: {
-       fontFamily: {
+      fontFamily: {
         anton: ["Anton", "sans-serif"],
+        bebas: ["Bebas Neue", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
   plugins: [],
 }
-
