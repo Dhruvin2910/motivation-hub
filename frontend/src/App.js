@@ -5,6 +5,10 @@ import seminar1 from "../src/asset/main3e.png";
 import img1 from "../src/asset/img1.png";
 import img2 from "../src/asset/img2.png";
 import img3 from "../src/asset/img3.jpg";
+import img4 from "../src/asset/img4.jpeg";
+import img5 from "../src/asset/img5.JPG";
+import img6 from "../src/asset/img6.JPG";
+import intro from "../src/asset/introduction.jpg";
 import personal1 from "../src/asset/personal2.jpeg";
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -61,7 +65,7 @@ function App() {
           <div>
             <img
               className="rounded-lg shadow-md h-96 md:h-72 mx-auto"
-              src={personal1}
+              src={intro}
               alt="logo"
             />
           </div>
@@ -89,7 +93,7 @@ function App() {
 
               <p className="mx-2 my-2 text-black text-sm md:text-md font-montserrat leading-relaxed">
                 His work is not designed to simply improve lives, but to
-                re-engineer the entire architecture of one’s existence.
+                re-engineer the entire architecture of one’s existence. <button className="text-blue-500 hover:border-b hover:border-blue-300">Read more</button>
               </p>
             </div>
           </div>
@@ -128,21 +132,21 @@ function App() {
             {/* Image 4 */}
             <div className="rounded-lg overflow-hidden shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer bg-gray-800">
               <div className="h-56 bg-gray-700 flex items-center justify-center text-white text-xl font-montserrat">
-                img4
+                <img src={img4} alt="img4" />
               </div>
             </div>
 
             {/* Image 5 */}
             <div className="rounded-lg overflow-hidden shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer bg-gray-800">
               <div className="h-56 bg-gray-700 flex items-center justify-center text-white text-xl font-montserrat">
-                img5
+                <img src={img5} alt="img5" />
               </div>
             </div>
 
             {/* Image 6 */}
             <div className="rounded-lg overflow-hidden shadow-lg hover:scale-105 hover:shadow-2xl transition-all duration-300 cursor-pointer bg-gray-800">
               <div className="h-56 bg-gray-700 flex items-center justify-center text-white text-xl font-montserrat">
-                img6
+                <img src={img6} alt="img6" />
               </div>
             </div>
           </div>
