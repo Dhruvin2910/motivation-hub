@@ -1,0 +1,8 @@
+#environment variables
+.env
+
+#node variables
+node_modules/
+
+#User data
+User_Data.txt

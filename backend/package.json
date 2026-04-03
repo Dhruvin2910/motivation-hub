@@ -1,0 +1,23 @@
+{
+  "name": "motivation_backend",
+  "version": "1.0.0",
+  "description": "Motivation Hub",
+  "license": "ISC",
+  "author": "Dhruvin Patel & Nimanshu Patel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.1",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14",
+    "router": "^2.2.0"
+  }
+}
